@@ -1,12 +1,16 @@
-# 🌐 Recon-Lite - Website Information Tool (Python)
+🌐 Recon-Lite - Website Information Tool (Python)
 
-## 📌 Overview
-Recon-Lite is a Python-based GUI tool used for gathering information about a website.  
-It performs basic reconnaissance by collecting IP, WHOIS, DNS records, HTTP headers, and server details.
+📌 Overview
+
+Recon-Lite is a Python-based GUI tool used for gathering information about a website.
+It performs basic reconnaissance by collecting IP address details, WHOIS information, DNS records, HTTP headers, website title, and server location details in an easy-to-use graphical interface.
+
+This tool is designed for educational purposes and beginner-level cybersecurity reconnaissance practice.
 
 ---
 
-## 🚀 Features
+🚀 Features
+
 - GUI-based interface (Tkinter)
 - Domain to IP resolution
 - WHOIS information lookup
@@ -15,39 +19,47 @@ It performs basic reconnaissance by collecting IP, WHOIS, DNS records, HTTP head
 - Website title extraction
 - IP geolocation
 - Save report functionality
-- Multi-threaded execution
+- Multi-threaded execution for faster performance
 
 ---
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
+
 - Python
 - Tkinter
 - Socket Programming
 - Requests Library
-- Whois Module
-- DNS Resolver
+- Python-WHOIS Module
+- DNSPython Resolver
 - Threading
 
 ---
 
-## ⚙️ How It Works
-1. Enter a domain or URL  
-2. Click "Start Recon"  
+⚙️ How It Works
+
+1. Enter a domain or URL
+2. Click Start Recon
 3. Tool gathers:
-   - IP Address  
-   - WHOIS Info  
-   - DNS Records  
-   - HTTP Headers  
-   - Server Location  
-4. Results displayed in GUI  
+   - IP Address
+   - WHOIS Information
+   - DNS Records
+   - HTTP Headers
+   - Server Location
+4. Results are displayed in the GUI window
 
 ---
 
-## ▶️ How to Run
+▶️ How to Run
 
-```bash
 pip install requests python-whois dnspython
 python recon_lite.py
 
-## 🔐 Security Note
-This tool is for educational purposes only. Do not use it on unauthorized targets.
+---
+
+🔒 Security Note
+
+This tool is developed strictly for educational and authorized security testing purposes only.
+
+Do not use this tool against any website, server, or network without proper permission from the owner.
+
+The author is not responsible for any misuse or illegal activities performed using this tool.
