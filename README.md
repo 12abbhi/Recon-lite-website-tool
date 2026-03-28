@@ -49,5 +49,5 @@ It performs basic reconnaissance by collecting IP, WHOIS, DNS records, HTTP head
 pip install requests python-whois dnspython
 python recon_lite.py
 
-🔐 Security Note
+## 🔐 Security Note
 This tool is for educational purposes only. Do not use it on unauthorized targets.
